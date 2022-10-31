@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.heading {
+  color: white;
+  font-family: "Roboto";
+}
+
+@media (max-width: 576px) {
+  .container {
+    background-color: #0f172a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 70px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    background-color: #0f172a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 150px;
+    height: 70px;
+  }
+}
